@@ -1,0 +1,21 @@
+"""
+   --- --- ---
+  |   |   |   |
+   --- --- ---
+  |   |   |   |
+   --- --- ---
+  |   |   |   |
+   --- --- ---
+"""
+
+dash = "---"
+stroke = "|"
+
+for i in range(0,7):
+    for j in range (0,7):
+        if i%2 == 0 and j%2 != 0:
+          print(dash, end=" ")
+        elif i%2 != 0 and j%2 == 0:
+          print(stroke, end="  ")
+    print("")
+
